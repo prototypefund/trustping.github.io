@@ -1,0 +1,39 @@
+.card {
+  /* margin: 5px; */
+  padding: 60px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  /* background-color: #e4e4e4; */
+  background-color: #f3f3f3;
+  /* min-height: 480px; */
+  /* max-width: 400px; */
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 90.0rem;
+  padding: 0 2.0rem;
+  position: relative;
+  width: 100%;
+}
+
+.foo {
+    padding-right: 0px;
+}
+.sec {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (min-width: 70rem) { 
+.row { 
+    flex-direction: row; 
+    margin-left: -1.0rem; 
+    width: calc(100% + 2.0rem); 
+} 
+.row .column { 
+    margin-bottom: inherit; 
+    padding: 0 1.0rem; 
+} 
+} 
