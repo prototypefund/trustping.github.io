@@ -16,8 +16,8 @@
 
 
 .sec {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .embed-container {
@@ -38,4 +38,8 @@
 /* ratio 4x3 */
 .embed-container.ratio4x3 {
   padding-bottom: 75%;
+}
+
+a {
+  text-decoration: underline;
 }
